@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     
-    <ns prefix="w" uri="http://schemas.microsoft.com/office/word/2003/wordml"/>
+    <ns prefix="w" uri="http://schemas.openxmlformats.org/wordprocessingml/2006/main"/>
+    <ns prefix="pkg" uri="http://schemas.microsoft.com/office/2006/xmlPackage"/>
     
     <let name="allowed-para-styles" value="('articlehead', 'bodytext', 'bibhead', 'bib')"/>
     
